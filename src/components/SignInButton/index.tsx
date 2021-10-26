@@ -16,7 +16,7 @@ export const SignInButton = () => {
   ) : (
     <button onClick={() => signIn("github")} className={styles.signInButton}>
       <FaGithub color='#eba417' />
-      Sing in with Github
+      Sign in with Github
     </button>
   );
 };
